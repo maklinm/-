@@ -1,0 +1,44 @@
+E:\Visual Studio Community\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+E:\Visual Studio Community\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+E:\Visual Studio Community\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+E:\Visual Studio Community\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.AssemblyReference.cache
+E:\Visual Studio Community\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.SuggestedBindingRedirects.cache
+E:\Visual Studio Community\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+E:\Visual Studio Community\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+E:\Visual Studio Community\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+E:\Visual Studio Community\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+E:\Visual Studio Community\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+E:\Visual Studio Community\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Max\Desktop\Алёшин вариант задания (обращаться к нему)\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Max\Desktop\Алёшин вариант задания (обращаться к нему)\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Max\Desktop\Алёшин вариант задания (обращаться к нему)\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Max\Desktop\Алёшин вариант задания (обращаться к нему)\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.AssemblyReference.cache
+C:\Users\Max\Desktop\Алёшин вариант задания (обращаться к нему)\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Max\Desktop\Алёшин вариант задания (обращаться к нему)\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Form1.resources
+C:\Users\Max\Desktop\Алёшин вариант задания (обращаться к нему)\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Max\Desktop\Алёшин вариант задания (обращаться к нему)\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Max\Desktop\Алёшин вариант задания (обращаться к нему)\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\Алёшин вариант задания (обращаться к нему)\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Max\Desktop\Алёшин вариант задания (обращаться к нему)\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Max\Desktop\Тренажерный комплекс\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Max\Desktop\Тренажерный комплекс\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Max\Desktop\Тренажерный комплекс\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Max\Desktop\Тренажерный комплекс\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.AssemblyReference.cache
+C:\Users\Max\Desktop\Тренажерный комплекс\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Max\Desktop\Тренажерный комплекс\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Max\Desktop\Тренажерный комплекс\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Max\Desktop\Тренажерный комплекс\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\Тренажерный комплекс\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Max\Desktop\Тренажерный комплекс\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\Max\Desktop\Тренажерный комплекс\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Комплекс.resources
+C:\Users\Max\Desktop\Тренажерный комплекс\TestFrom\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\Max\Desktop\Тренажерный комплекс\TestFrom\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\Max\Desktop\Тренажерный комплекс\TestFrom\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\Max\Desktop\Тренажерный комплекс\TestFrom\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.AssemblyReference.cache
+C:\Users\Max\Desktop\Тренажерный комплекс\TestFrom\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Max\Desktop\Тренажерный комплекс\TestFrom\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Комплекс.resources
+C:\Users\Max\Desktop\Тренажерный комплекс\TestFrom\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\Max\Desktop\Тренажерный комплекс\TestFrom\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\Max\Desktop\Тренажерный комплекс\TestFrom\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\Тренажерный комплекс\TestFrom\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\Max\Desktop\Тренажерный комплекс\TestFrom\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
