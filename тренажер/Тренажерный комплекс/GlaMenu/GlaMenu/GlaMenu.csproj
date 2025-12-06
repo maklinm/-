@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F696FA8-EF42-4400-A6A6-CFCE5C2AF6A6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GlaMenu</RootNamespace>
+    <AssemblyName>RLS_VTKompleks</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Olegych\Desktop\рлс тренажер\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A8B2C5ED17099331A4C4E52C6A35FBCE33F86A9B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>GlaMenu_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GlaMenu.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>radar-background.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProbGameFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProbGameFrom.Designer.cs">
+      <DependentUpon>ProbGameFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProbtwoGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProbtwoGame.Designer.cs">
+      <DependentUpon>ProbtwoGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TestForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForm2.Designer.cs">
+      <DependentUpon>TestForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestGameForm.Designer.cs">
+      <DependentUpon>TestGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnityWithFormRegimRabot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnityWithFormRegimRabot.Designer.cs">
+      <DependentUpon>UnityWithFormRegimRabot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnityWithForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnityWithForms.Designer.cs">
+      <DependentUpon>UnityWithForms.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProbGameFrom.resx">
+      <DependentUpon>ProbGameFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProbtwoGame.resx">
+      <DependentUpon>ProbtwoGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm2.resx">
+      <DependentUpon>TestForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestGameForm.resx">
+      <DependentUpon>TestGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnityWithFormRegimRabot.resx">
+      <DependentUpon>UnityWithFormRegimRabot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnityWithForms.resx">
+      <DependentUpon>UnityWithForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GlaMenu_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Пульт 122.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lampo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knopka22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knopka2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knopka1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knopka11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lampo31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lampo21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TumD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TumM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumb22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumb11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacet1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pacet2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knopTU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\knopTU1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\W21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phonoteka_p-radar-fon-30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radar.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radar1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radar2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\стрелка180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пульт 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пульт дор.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пульт2_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumb2p2_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пульт2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumb2p2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumb2p21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumb2p22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumb2p2_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пульт21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пульт22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tu2mb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tu2mb_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bt1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bt2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bt3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bt3_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bt4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bt4_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStart1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStart1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStart2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStart2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStart3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStart3_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStart31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStop1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStop2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStop3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStop1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStop2_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KnStop3_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\пульт20_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AD_Lam1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AD_Lam2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IDS_Lam.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PSH_lam.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Пульт 1221.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ra_lampa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pusk_lampa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AD_lam_na_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IDS_lam_na_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ПСЧ_lam_na_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AD_lam_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ЭСД_lam_na.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ПСЧ_lam_na.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Пульт 12211.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27В_L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27В_L1_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Пульт 12212.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lampa_Tu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radar-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="radar-background.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
